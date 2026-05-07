@@ -1,4 +1,4 @@
-# Azure SP-Online integrating M365 Meetings Solution (WORKING ON IT)
+# Azure SP-Online integrating M365 Meetings Solution v1.x (WORKING ON IT)
 
 ## Introduction
 
@@ -16,7 +16,7 @@ This architecture is designed for organizations that need a reliable, cloud‑na
 
 ## Infrastructure Deployment – Multi‑Environment Bicep Setup
 
-This project provides a fully refactored, modular, and production‑ready Azure infrastructure deployment using Bicep. 
+It provides a fully refactored, modular, and production‑ready Azure infrastructure deployment using Bicep. 
 It supports dev, test, and prod environments without modifying the code, relying instead on per‑environment parameter files.
 
 ### Key Components
