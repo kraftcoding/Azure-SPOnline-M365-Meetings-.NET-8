@@ -16,31 +16,6 @@ To keep it manageable, it is divided into the following parts:
 - The per‑environment parameters
 - Important deployment notes
 
-infrastructure/
-
-│
-
-├── main.bicep
-
-│
-├── modules/
-│   ├── certificates.bicep
-│   ├── functionapp-auth.bicep
-│   ├── functionapp-aux.bicep
-│   ├── naming.bicep
-│   ├── identity.bicep
-│   ├── keyvault.bicep
-│   ├── keyvault-access.bicep
-│   ├── storage.bicep
-│   ├── appplan.bicep
-│   ├── monitoring.bicep
-│   └── support-deployment-keyvaultcert.ps1   ← if you use option A
-│
-└── params/
-    ├── dev.json
-    ├── test.json
-    └── prod.json
-
 ## Deployment Instructions
 
 Login:
