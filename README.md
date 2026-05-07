@@ -1,4 +1,4 @@
-# Azure SP-Online integrating M365 Meetings Solution (WORKING ON IT)
+# Azure SP-Online integrating M365 Meetings Solution v1.x (WORKING ON IT)
 
 ## Introduction
 
