@@ -17,8 +17,11 @@ To keep it manageable, it is divided into the following parts:
 - Important deployment notes
 
 infrastructure/
+
 │
+
 ├── main.bicep
+
 │
 ├── modules/
 │   ├── certificates.bicep
