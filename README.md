@@ -18,17 +18,22 @@ To keep it manageable, it is divided into the following parts:
 
 ## Deployment Instructions
 
-Login:
+### Login:
+ ```sh
 az login
+ ```
 
-From script:
+### From script:
+ ```sh
 chmod +x deploy.sh
 ./deploy.sh
-
-With the CLI:
+ ```
+### With the CLI:
+ ```sh
 az group delete --name rg-dev-meetings --yes --no-wait   (only if it already exists)
 az group create --name rg-dev-meetings --location westeurope
 az deployment group create --resource-group rg-dev-meetings --template-file main.bicep --parameters @params/dev.json
+ ```
 
 ## Notes
 The structure is designed to scale cleanly across multiple environments.
